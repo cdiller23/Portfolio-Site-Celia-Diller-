@@ -4,6 +4,13 @@ Primary Color GD (Pink): #EEE5E9;
 Secondary Color GD (Navy): #556A7A;
 */
 
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+#hero h2 {
+  text-align: center; /* Centers text */
+}
 /*For box sizing*/
 * {
   box-sizing: border-box;
@@ -102,6 +109,7 @@ a:focus {
 header {
   background-color: #E8DDD5;
   padding: 10px;
+  text-align: center;
     padding-top: 10px;
     padding-right: 5px;
     padding-bottom: 15px;
@@ -126,6 +134,11 @@ header {
 .container {
   padding: 0 15px;
 }
+
+.logo {
+  max-width: 250px;
+}
+
 
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
