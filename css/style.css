@@ -1,11 +1,38 @@
 /* Color Scheme Used:
-Primary Color Brand (Tan): #E8DDD5
-Primary Color GD (Pink): #EEE5E9;
-Secondary Color GD (Navy): #556A7A;
+Primary Color Brand (Sage Background): #B2A083
+Secondary Color Brand (Tan): #E8DDD5
+Primary Color Writing (Plum): #654B54
+E8D5CC
 */
+
+#hero {
+  background-color: #B2A083;
+}
+
+#hero {
+  background-color: #E8DDD6;
+  padding: 20px 0;
+}
+
+#hero {
+  background-color: #E8DDD6;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+main {
+  padding-top: 133px;
+}
+
 
 #hero h1 {
   text-align: center; /* Centers text */
+}
+
+#hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
 }
 
 #hero h2 {
@@ -21,7 +48,7 @@ body {
   font-family: 'Playfair Display', sans-serif;
 }
 body {
-  background-color: #E8DDD5;
+  background-color: #B2A083;
   font-family: 'Playfair Display', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 300 */
@@ -61,12 +88,12 @@ a {
   text-decoration: none; /* No underlining */
 }
 a:hover {
-  color: #BEB4B4;
+  color: #9E6B4E;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 a:visited { /* visited link */
-  color: #A27B89;
+  color: #654B54;
 }
 a:active { /* selected link */
   color: #BEB4B4;
@@ -74,15 +101,15 @@ a:active { /* selected link */
 
 a:hover,
 a:focus {
-  color: #cc6540;
+  color: #654B54;
   text-decoration: underline;
 }
 
 /*For Buttons*/
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #434C53;
-  color: #ffffff; /* needed to override the default link color */
+  background-color: #B2A083;
+  color: #654B54; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -97,12 +124,12 @@ a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #ff7f50;
+  color: #654B54;
   text-transform: uppercase;
-  border: 2px solid #ff7f50;
+  border: 2px solid #B2A083;
 }
 .button.contact:hover {
-  background-color: #ff7f50;
+  background-color: #654B54;
   color: #ffffff;
 }
 /*For Header*/
@@ -110,17 +137,31 @@ header {
   background-color: #E8DDD5;
   padding: 10px;
   text-align: center;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-bottom: 15px;
-    padding-left: 5px;
+  padding: 10px 0;
   margin: 10px;
-  selector {
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
 }
-.row {
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+  selector {
+  nav > ul > li > a:visited.
+.row
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+
+
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
 
 
@@ -138,8 +179,6 @@ header {
 .logo {
   max-width: 250px;
 }
-
-
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
