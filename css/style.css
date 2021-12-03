@@ -7,17 +7,11 @@ E8D5CC
 
 #hero {
   background-color: #B2A083;
-}
-
-#hero {
   background-color: #E8DDD6;
   padding: 20px 0;
-}
-
-#hero {
   background-color: #E8DDD6;
   padding: 20px 0;
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -25,19 +19,19 @@ main {
   padding-top: 133px;
 }
 
-
 #hero h1 {
   text-align: center; /* Centers text */
-}
-
-#hero h1 {
   margin: 0;
   padding: 0.67em 0;
 }
-
+#hero span {
+  display: block;
+  text-align: center;
+}
 #hero h2 {
   text-align: center; /* Centers text */
 }
+
 /*For box sizing*/
 * {
   box-sizing: border-box;
@@ -50,7 +44,7 @@ body {
 body {
   background-color: #B2A083;
   font-family: 'Playfair Display', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
+  font-size: 18px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
@@ -81,7 +75,7 @@ h4 {
 img {
   width: 100%;
 }
-]
+
 /*For Hyperlink*/
 a {
   color: #556A7A;
@@ -528,4 +522,40 @@ template {
 
 [hidden] {
   display: none;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  [class*="col-"] {
+  float: left;
+}
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
