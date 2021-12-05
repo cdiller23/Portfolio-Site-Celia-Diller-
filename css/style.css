@@ -149,19 +149,16 @@ nav > ul > li > a {
   font-weight: 700;
   color: #4a4a4a;
 }
-  selector {
-  nav > ul > li > a:visited.
-.row
+
+.row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
 
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
-
-
-  border-bottom: 3px solid 38DDD5;
-  selector {
-  position: relative;
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px
+  solid #4a4a4a;
 }
 
 /* Layout styling */
@@ -173,8 +170,6 @@ nav > ul > li > a {
 .logo {
   max-width: 250px;
 }
-
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -558,4 +553,9 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+}
+/*an example*/
+
+.descWrapper {
+  padding: 20px;
 }
