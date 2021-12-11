@@ -14,6 +14,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--cdn links-->
+  <script src="https://kit.fontawesome.com/e6aa32bfe8.js" crossorigin="anonymous"></script>
 </head>
 
 <!-- START PROJECT BLOCK EXERCISE 1.3 -->
@@ -32,6 +35,7 @@
 				<picture>
 						<header>
 						<div class="container">
+						<div class="navtoggle" id="myNavtoggle">
   					<source srcset="img/logo@1.png" media="(max-width:767px)">
   					<img src="img/logo@2.png" alt="Celia Diller logo">
 						<nav>
@@ -45,6 +49,7 @@
     				<li><a href="index.html"class="button contact">Work</a></li>
     				<li><a href="about.html"class="button contact">About</a></li>
     				<li><a href="#contact"class="button contact">Contact</a></li>
+						<li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
   				</ul>
 				</nav>
 				<body>

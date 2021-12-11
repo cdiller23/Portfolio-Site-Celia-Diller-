@@ -2,8 +2,25 @@
 Primary Color Brand (Sage Background): #B2A083
 Secondary Color Brand (Tan): #E8DDD5
 Primary Color Writing (Plum): #654B54
-E8D5CC
+Secondary Color: #E8D5CC
 */
+
+/*For box sizing*/
+* {
+  box-sizing: border-box;
+}
+/*For Images*/
+img {
+  width: 100%;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+/* -------------------------OVERALL LAYOUT STYLING -------------------------- */
+/* -------------------------------------------------------------------------- */
+
 #hero {
   background-color: #B2A083;
   background-color: #E8DDD6;
@@ -12,14 +29,17 @@ E8D5CC
   padding: 20px 0;
   display: block;
   width: 100%;
+  max-width: 150px;
+  min-width: 641px
 }
 
 main {
   padding-top: 133px;
 }
 
+/* -------------------------------------- FONTS AND TEXT / H1-5 HEADERS ------------------------------------- */
+
 #hero h1 {
-  text-align: center; /* Centers text */
   margin: 0;
   padding: 0.67em 0;
 }
@@ -29,11 +49,6 @@ main {
 }
 #hero h2 {
   text-align: center; /* Centers text */
-}
-
-/*For box sizing*/
-* {
-  box-sizing: border-box;
 }
 
 /*For Text*/
@@ -70,12 +85,8 @@ h4 {
   font-weight: 400;
 }
 
-/*For Images*/
-img {
-  width: 100%;
-}
 
-/*For Hyperlink*/
+/* -------------------------------------- LINKS ------------------------------------- */
 
 a {
   color: #556A7A;
@@ -126,11 +137,11 @@ a:focus {
   background-color: #654B54;
   color: #ffffff;
 }
-/*For Header*/
+
+/* -------------------------------------- HEADER ------------------------------------- */
 header {
   background-color: #E8DDD5;
   padding: 10px;
-  text-align: center;
   padding: 10px 0;
   margin: 10px;
 }
@@ -140,9 +151,10 @@ nav > ul {
   padding: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
+.navtoggle li:not(:last-child) {
+  display: none;
 }
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -519,9 +531,20 @@ template {
   display: none;
 }
 
-/* ==============================
+nav > ul > li {
+  display: inline-block;
+  min-width: 641px
+}
+
+/* --------------------------------------- MEDIA QUIERIES ---------------------------------------- */
+/* =============
 Medium devices (640px and larger)
-================================= */
+================================================================================================== */
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
@@ -555,7 +578,8 @@ X-large devices (1440px or larger)
 @media only screen and (min-width: 1440px) {
 }
 
-/*an example*/
+/* --------------------------------------- Animation ---------------------------------------- */
+
 .descWrapper {
   padding: 20px;
 }
