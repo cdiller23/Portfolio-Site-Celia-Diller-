@@ -254,14 +254,17 @@ Medium devices (640px and larger)
 		text-align: unset;
 		padding: 20px 0 13px;
 	}
+
 	nav {
 		width: auto;
 		float: right;
 		margin-top: 4px;
 	}
+}
 	.col-md-6 {
 		width: 50%;
 	}
+
 	.col-md-4 {
 		width: calc(100% / 4);
 	}
