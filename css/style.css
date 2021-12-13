@@ -531,19 +531,32 @@ template {
   display: none;
 }
 
-nav > ul > li {
-  display: inline-block;
-  min-width: 641px
+/* --------------------------------------- HAMBURGER MENU ---------------------------------------- */
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 
 /* --------------------------------------- MEDIA QUIERIES ---------------------------------------- */
 /* =============
 Medium devices (640px and larger)
 ================================================================================================== */
-
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
 
 @media only screen and (min-width: 640px) {
   header {
@@ -566,6 +579,18 @@ Medium devices (640px and larger)
   clear: both;
   display: table;
 }
+nav > ul > li {
+    display: inline-block;
+    position: relative;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
