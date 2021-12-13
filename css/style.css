@@ -47,7 +47,7 @@ img {
 }
 
 main {
-	padding-top: 133px;
+	padding-top: 56px;
 }
 
 /* -------------------------------------- FONTS AND TEXT / H1-5 HEADERS ------------------------------------- */
@@ -158,14 +158,14 @@ a:focus {
 /* -------------------------------------- navigation ------------------------------------- */
 header {
 	background-color: #e8ddd5;
-	padding: 10px;
-	padding: 10px 0;
+	padding: 10px 0 4px;
 	margin: 10px;
 }
 
 nav > ul {
 	list-style-type: none;
 	padding: 0;
+  margin: 0;
 }
 
 .navtoggle li:not(:last-child) {
@@ -204,6 +204,18 @@ nav > ul > li > a {
 	right: 0;
 	top: 2px;
 	font-size: 20px;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  padding-right: 0;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
 }
 
 .navtoggle.responsive nav {
@@ -267,6 +279,11 @@ Medium devices (640px and larger)
 		display: none;
 	}
 }
+
+nav > ul {
+  margin: 1em 0;
+}
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
