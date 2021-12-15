@@ -135,7 +135,7 @@ a:focus {
 	font-weight: 400;
 	padding: 10px;
 	border-radius: 3px;
-	border-bottom: 2px solid #4a4a4a; /* width of the border, type, color */
+	border-bottom: 2px solid #654B54; /* width of the border, type, color */
 	transition: 0.2s opacity;
 }
 
@@ -185,7 +185,7 @@ nav > ul > li > a {
 
 #work .row {
 	padding-bottom: 25px;
-	border-bottom: 1px solid #4a4a4a;
+	border-bottom: 1px solid #654B54;
 }
 
 /* Layout styling */
@@ -225,7 +225,8 @@ nav > ul > li > a {
 .navtoggle.responsive li {
 	display: block;
 	padding: 10px 0;
-	border-top: 1px solid rgba(255, 127, 80, 0.5);
+	border-top: 1px solid rgba(101, 75, 84, 0.5);
+  border-bottom: #654B54
 }
 
 .navtoggle.responsive li:last-child {
