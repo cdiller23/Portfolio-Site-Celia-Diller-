@@ -195,7 +195,7 @@ nav > ul > li > a {
 }
 
 .logo {
-	max-width: 100px;
+	max-width: 250px;
 }
 
 /* --------------------------------------- HAMBURGER MENU ---------------------------------------- */
@@ -211,7 +211,7 @@ nav > ul > li > a {
 }
 
 .navtoggle li .icon {
-  position: absolute;
+  position: center;
   padding-right: 0;
   right: 0;
   top: 2px;
@@ -254,7 +254,7 @@ Medium devices (640px and larger)
 		text-align: unset;
 		padding: 20px 0 13px;
 	}
-  
+
 	nav {
 		width: auto;
 		float: right;
