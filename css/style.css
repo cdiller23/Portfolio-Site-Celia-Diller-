@@ -3,33 +3,23 @@ Primary Color Brand (Sage Background): #B2A083
 Secondary Color Brand (Tan): #E8DDD5
 Primary Color Writing (Plum): #654B54
 Secondary Color: #E8D5CC
-*/
-
-/*For box sizing*/
+*/ /*For box sizing*/
 * {
-	box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 html {
   scroll-behavior: smooth;
 }
-
-
-
-/* Sections
-   ========================================================================== */
-
-/*
- * Remove the margin in all browsers.
- */
-
+/* Sections ========================================================================== *//*
+ * Remove the margin in all browsers. */
 body {
-	margin: 0;
+  margin: 0;
 }
 
 /*For Images*/
 img {
-	width: 100%;
+  width: 100%;
 }
 
 .center {
@@ -37,33 +27,30 @@ img {
 }
 
 .descWrapper {
-	padding: 20px
+  padding: 20px
 }
 
 /* -------------------------OVERALL LAYOUT STYLING -------------------------- */
 /* -------------------------------------------------------------------------- */
 
 #hero {
-	background-color: #b2a083;
-	background-color: #e8ddd6;
-	padding: 20px 0;
-	background-color: #e8ddd6;
-	padding: 20px 0;
-	display: block;
-	width: 100%;
-	max-width: 1150px;
-	margin: auto;
+  background-color: #b2a083;
+  padding: 20px 0;
+  background-color: #e8ddd6;
+  display: block;
+  width: 100%;
+  max-width: 1150px;
+  margin: auto;
 }
 
 main {
-	padding-top: 56px;
+  padding-top: 56px;
 }
 
 .menu li {
-  height:50px;
+  height: 50px;
   display: inline;
-  position: center;
-  padding:10px 15px 18px 15px;
+  padding: 10px 15px 18px 15px;
   border-style: groove;
   border-width: 0px 2px;
 }
@@ -71,111 +58,124 @@ main {
 /* -------------------------------------- FONTS AND TEXT / H1-5 HEADERS ------------------------------------- */
 
 #hero h1 {
-	margin: 0;
-	padding: 0.67em 0;
+  margin: 0;
+  padding: 0.67em 0;
 }
+
 #hero span {
-	display: block;
-	text-align: center;
+  display: block;
+  text-align: center;
 }
+
 #hero h2 {
-	text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 /*For Text*/
 body {
-	font-family: 'Playfair Display', sans-serif;
-}
-body {
-	background-color: #b2a083;
-	font-family: 'Playfair Display', sans-serif;
-	font-size: 18px; /* Sets the font size to 16px */
-	font-weight: 400; /* Sets the font weight to 300 */
-	line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-	color: #4a4a4a;
+  font-family: 'Playfair Display', sans-serif;
+  background-color: #b2a083;
+  font-size: 18px;
+  /* Sets the font size to 16px */
+  font-weight: 400;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	line-height: 1.4;
+  line-height: 1.4;
 }
 
 h1 {
-	font-size: 2.75em;
-	font-weight: 600;
+  font-size: 2.75em;
+  font-weight: 600;
 }
+
 h2 {
-	font-size: 2.25em;
-	font-weight: 600;
+  font-size: 2.25em;
+  font-weight: 600;
 }
+
 h3 {
-	font-size: 1.5em;
-	font-weight: 400;
+  font-size: 1.5em;
+  font-weight: 400;
 }
+
 h4 {
-	font-size: 1.35em;
-	font-weight: 400;
+  font-size: 1.35em;
+  font-weight: 400;
 }
 
 /* -------------------------------------- LINKS ------------------------------------- */
-
 a {
-	color: #556a7a;
-	text-decoration: none; /* No underlining */
+  color: #556a7a;
+  text-decoration: none;
+  /* No underlining */
 }
+
 a:hover {
-	color: #9e6b4e;
-	text-decoration: underline; /* Underlining when hovering over a link */
+  color: #9e6b4e;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
 a:visited {
-	/* visited link */
-	color: #654b54;
+  /* visited link */
+  color: #654b54;
 }
+
 a:active {
-	/* selected link */
-	color: #beb4b4;
+  /* selected link */
+  color: #beb4b4;
 }
 
 a:hover,
 a:focus {
-	color: #654b54;
-	text-decoration: underline;
+  color: #654b54;
 }
 
 /*For Buttons*/
 .button {
-	display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-	background-color: #b2a083;
-	color: #654b54; /* needed to override the default link color */
-	font-weight: 400;
-	padding: 10px;
-	border-radius: 3px;
-	border-bottom: 2px solid #654B54; /* width of the border, type, color */
-	transition: 0.2s opacity;
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #b2a083;
+  color: #654b54;
+  /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #654B54;
+  /* width of the border, type, color */
+  transition: 0.2s opacity;
 }
 
 .button:hover {
-	opacity: 0.8; /* Reduces the opacity of the button to 80% */
-	text-decoration: none;
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
 }
 
 .button.contact {
-	background-color: transparent;
-	color: #654b54;
-	text-transform: uppercase;
-	border: 2px solid #b2a083;
+  background-color: transparent;
+  color: #654b54;
+  text-transform: uppercase;
+  border: 2px solid #b2a083;
 }
+
 .button.contact:hover {
-	background-color: #654b54;
-	color: #ffffff;
+  background-color: #654b54;
+  color: #ffffff;
 }
 
 /* -------------------------------------- navigation ------------------------------------- */
 header {
-	background-color: #D0C4BE;
+  background-color: #D0C4BE;
   text-align: center;
   padding-top: 10px;
   padding-right: 5px;
@@ -185,7 +185,7 @@ header {
 }
 
 footer {
-	background-color: #D0C4BE;
+  background-color: #D0C4BE;
   text-align: center;
   padding-top: 10px;
   padding-right: 5px;
@@ -194,49 +194,49 @@ footer {
   width: 100%
 }
 
-nav > ul {
-	list-style-type: none;
-	padding: 0;
+nav>ul {
+  list-style-type: none;
+  padding: 0;
   margin: 0;
 }
 
 .navtoggle li:not(:last-child) {
-	display: none;
+  display: none;
 }
 
-nav > ul > li > a {
-	padding: 0 15px;
-	text-transform: uppercase;
-	font-weight: 700;
-	color: #4a4a4a;
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
 }
 
 .row {
-	margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
 #work .row {
-	padding-bottom: 25px;
-	border-bottom: 1px solid #654B54;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #654B54;
 }
 
 /* Layout styling */
-
 .container {
-	padding: 0 15px;
+  padding: 0 15px;
 }
 
 .logo {
-	max-width: 250px;
+  max-width: 250px;
   padding-left: 16px;
 }
 
 /* --------------------------------------- HAMBURGER MENU ---------------------------------------- */
 .navtoggle li .icon {
-	position: absolute;
-	right: 0;
-	top: 2px;
-	font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
 }
 
 .navtoggle, .navtoggle.responsive {
@@ -244,90 +244,82 @@ nav > ul > li > a {
 }
 
 .navtoggle li .icon {
-  position: center;
   padding-right: 0;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
 }
 
 .navtoggle.responsive nav {
-	padding: 24px 0 0;
+  padding: 24px 0 0;
 }
 
 .navtoggle.responsive li {
-	display: block;
-	padding: 10px 0;
-	border-top: 1px solid rgba(101, 75, 84, 0.5);
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(101, 75, 84, 0.5);
   border-bottom: #654B54
 }
 
 .navtoggle.responsive li:last-child {
-	padding: 0 0 10px;
+  padding: 0 0 10px;
 }
 
 /* --------------------------------------- MEDIA QUIERIES ---------------------------------------- */
 /* =============
 Medium devices (640px and larger)
 ================================================================================================== */
-
 [class*='col-'] {
-	float: left;
+  float: left;
 }
+
 .row::after {
-	content: '';
-	clear: both;
-	display: table;
+  content: '';
+  clear: both;
+  display: table;
 }
+
 .col-sm-6 {
-	width: 50%;
+  width: 50%;
 }
 
 @media only screen and (min-width: 640px) {
-	header {
-		text-align: unset;
-		padding: 20px 0 13px;
-	}
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
 
-	nav {
-		width: auto;
-		float: right;
-		margin-top: 4px;
-	}
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
 
-	.col-md-6 {
-		width: 50%;
-	}
+  .col-md-6 {
+    width: 50%;
+  }
 
-	.col-md-4 {
-		width: calc(100% / 4);
-	}
+  .col-md-4 {
+    width: calc(100% / 4);
+  }
 
-	nav > ul > li {
-		display: inline-block;
-		position: relative;
-	}
+  nav>ul>li {
+    display: inline-block;
+    position: relative;
+  }
 
-	.navtoggle li:not(:last-child) {
-		display: inline-block;
-	}
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
 
-	.navtoggle li:last-child {
-		display: none;
-	}
-}
-
-nav > ul {
-  margin: 1em 0;
+  .navtoggle li:last-child {
+    display: none;
+  }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+@media only screen and (min-width: 1440px) {}
