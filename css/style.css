@@ -7,17 +7,14 @@ Secondary Color: #E8D5CC
 
 /*For box sizing*/
 * {
-	box-sizing: border-box;
+	box-sizing: content-box;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-html {
-	line-height: 1.15; /* 1 */
-	-webkit-text-size-adjust: 100%; /* 2 */
-}
+
 
 /* Sections
    ========================================================================== */
@@ -38,6 +35,11 @@ img {
 .center {
   text-align: center;
 }
+
+.descWrapper {
+	padding: 20px
+}
+
 /* -------------------------OVERALL LAYOUT STYLING -------------------------- */
 /* -------------------------------------------------------------------------- */
 
