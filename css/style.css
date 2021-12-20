@@ -11,6 +11,10 @@ Secondary Color: #E8D5CC
 }
 
 html {
+  scroll-behavior: smooth;
+}
+
+html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -31,6 +35,9 @@ img {
 	width: 100%;
 }
 
+.center {
+  text-align: center;
+}
 /* -------------------------OVERALL LAYOUT STYLING -------------------------- */
 /* -------------------------------------------------------------------------- */
 
@@ -42,12 +49,21 @@ img {
 	padding: 20px 0;
 	display: block;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1150px;
 	margin: auto;
 }
 
 main {
 	padding-top: 56px;
+}
+
+.menu li {
+  height:50px;
+  display: inline;
+  position: center;
+  padding:10px 15px 18px 15px;
+  border-style: groove;
+  border-width: 0px 2px;
 }
 
 /* -------------------------------------- FONTS AND TEXT / H1-5 HEADERS ------------------------------------- */
@@ -157,9 +173,23 @@ a:focus {
 
 /* -------------------------------------- navigation ------------------------------------- */
 header {
-	background-color: #e8ddd5;
-	padding: 10px 0 4px;
-	margin: 10px;
+	background-color: #D0C4BE;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  width: 100%
+}
+
+footer {
+	background-color: #D0C4BE;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  width: 100%
 }
 
 nav > ul {
@@ -195,7 +225,8 @@ nav > ul > li > a {
 }
 
 .logo {
-	max-width: 350px;
+	max-width: 250px;
+  padding-left: 16px;
 }
 
 /* --------------------------------------- HAMBURGER MENU ---------------------------------------- */
