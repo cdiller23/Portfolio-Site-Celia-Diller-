@@ -20,16 +20,37 @@ body {
 /*For Images*/
 img {
   width: 100%;
-}
+  }
+
+  /* Resize images */
+  .custom-sizea img {
+      width: 100%;
+      height: 100%;
+      padding-top: 70px;
+      padding-left: 15px;
+  }
+
+  .custom-sizeb img {
+    width: 90%;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+
+
 
 .center {
   text-align: center;
 }
 
 .descWrapper {
-  padding: 20px
+  padding: 15px
 }
 
+.descWrappera {
+  padding: 45px
+}
 /* -------------------------OVERALL LAYOUT STYLING -------------------------- */
 /* -------------------------------------------------------------------------- */
 
@@ -44,7 +65,7 @@ img {
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 0px;
 }
 
 .menu li {
@@ -68,20 +89,25 @@ main {
 }
 
 #hero h2 {
-  text-align: center;
+  text-align: left;
   /* Centers text */
+}
+
+#hero h3 {
+  margin: 0;
+  padding-bottom: 0px
 }
 
 /*For Text*/
 body {
   font-family: 'Playfair Display', sans-serif;
   background-color: #b2a083;
-  font-size: 18px;
+  font-size: 16px;
   /* Sets the font size to 16px */
   font-weight: 400;
-  /* Sets the font weight to 300 */
-  line-height: 1.6;
-  /* Sets the line-height to 1.6 * the font-size */
+  /* Sets the font weight to 400 */
+  line-height: 1.8;
+  /* Sets the line-height to 1.8 * the font-size */
   color: #4a4a4a;
 }
 
