@@ -72,7 +72,6 @@ main {
   height: 50px;
   display: inline;
   padding: 10px 15px 18px 15px;
-  border-style: groove;
   border-width: 0px 2px;
 }
 
