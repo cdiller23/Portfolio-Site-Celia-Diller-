@@ -317,8 +317,8 @@ Medium devices (640px and larger)
     .custom-sizea img {
       width: 100%;
       height: 100%;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 10px;
+      padding-right: 0px;
       padding-top: 70px;
     }
 
