@@ -230,6 +230,10 @@ nav>ul>li>a {
   /* 25px top and bottom, 0 left and right */
 }
 
+.row img {
+  margin-top: 50px;
+}
+
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #654B54;
